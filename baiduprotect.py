@@ -3,6 +3,8 @@ from idaapi import *
 from idc import *
 
 import subprocess
+
+#去除混淆
 print("start")
 #循环执行每一个段的内容
 for segea in Segments():
